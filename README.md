@@ -4,11 +4,11 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Overview
 
-To run the project:
+To start developing the project:
 
 - Clone the repository
 - Console: npm install
-- Console: npm run dev
+- Console: sass --watch scss/styles.scss css/styles.css
 
 ### The challenge
 
@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-component-using-scss--MlN2i0Fvs](https://www.frontendmentor.io/solutions/social-links-component-using-scss--MlN2i0Fvs)
+- Live Site URL: [https://zpolikarpov.github.io/social-links-profile/](https://zpolikarpov.github.io/social-links-profile/)
 
 ## Author
 

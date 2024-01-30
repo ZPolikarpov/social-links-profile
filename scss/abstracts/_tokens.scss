@@ -1,0 +1,34 @@
+// colors
+
+$clr-white: hsl(0, 0%, 100%);
+$clr-grey: hsl(0, 0%, 20%);
+$clr-dark-grey: hsl(0, 0%, 12%);
+$clr-black: hsl(0, 0%, 8%);
+
+$clr-green: hsl(75, 94%, 57%);
+
+// fonts
+
+$ff-base: "Inter", sans-serif;
+
+$fs-400: 0.875rem;
+$fs-700: 1.5rem;
+
+$fw-400: 400;
+$fw-600: 600;
+$fw-700: 700;
+
+// card
+$card-padding: 2.5rem;
+$card-flow-spacing: 1.5rem;
+$card-background-default: $clr-dark-grey;
+$card-border-radius: 0.75rem;
+
+// links
+$link-flow-spacing: 1rem;
+$link-background-hover: $clr-green;
+$link-background-default: $clr-grey;
+$link-color-text-default: $clr-white;
+$link-color-text-hover: $clr-grey;
+$link-text-decoration: none;
+$link-font-weight: $fw-700;

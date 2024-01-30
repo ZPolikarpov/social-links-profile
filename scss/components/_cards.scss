@@ -1,0 +1,59 @@
+@use "../abstracts/" as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: $card-flow-spacing;
+  padding: clamp(1.5rem, -40.1667rem + 177.7778vw, $card-padding);
+  background-color: $card-background-default;
+  border-radius: $card-border-radius;
+  justify-content: center;
+  align-items: center;
+
+  &__header {
+    gap: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__heading {
+    font-size: $fs-700;
+    font-weight: $fw-600;
+  }
+
+  &__image {
+    border-radius: 100%;
+    margin-inline: auto;
+    max-width: 5.5rem;
+  }
+
+  &__linkcontainer {
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: column;
+    align-items: center;
+    gap: $link-flow-spacing;
+
+    & a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2.813rem;
+      width: -webkit-fill-available;
+      background-color: $link-background-default;
+      color: $link-color-text-default;
+      text-decoration: $link-text-decoration;
+      font-weight: $link-font-weight;
+      border-radius: 0.5rem;
+
+      transition: 0.5s;
+
+      &:is(:hover, :focus) {
+        transition: 0.5s;
+        color: $link-color-text-hover;
+        background-color: $link-background-hover;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@use "../abstracts" as *;
+
+.fw-bold {
+  font-weight: $fw-700;
+}
+
+.fw-semibold {
+  font-weight: $fw-600;
+}
